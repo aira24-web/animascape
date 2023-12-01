@@ -453,3 +453,36 @@ body {
     margin-top: 60px;
     padding-bottom: 8px;
 }
+
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
+    background-color: rgb(223, 185, 135);
+}
+
+/* ... (Other global styles) */
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 767px) {
+    .section-inner,
+    .section-inner-s {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .section-ttl1 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* ... (Adjust other styles as needed for mobile) */
+
+    /* Example: Adjusting header navigation */
+    .header-nav-list {
+        margin-left: 0;
+    }
+
+    /* ... (Adjust other styles as needed for mobile) */
+}
