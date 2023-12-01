@@ -462,27 +462,212 @@ body {
     background-color: rgb(223, 185, 135);
 }
 
-/* ... (Other global styles) */
+/* section */
+.section-wrap {
+    padding: 40px 0; /* パディング調整 */
+}
 
-/* Media Query for Mobile */
-@media only screen and (max-width: 767px) {
-    .section-inner,
-    .section-inner-s {
-        width: 90%;
-        margin: 0 auto;
-    }
+.section-inner, .section-inner-s {
+    width: 90%; /* モバイル用に幅調整 */
+    margin: 0 auto;
+}
 
-    .section-ttl1 {
-        margin-left: 0;
-        margin-top: 20px;
-    }
+.section-ttl {
+    font-size: 24px; /* フォントサイズ調整 */
+    margin-left: 0; /* 左のマージン削除 */
+    margin-top: 20px; /* 上のマージン追加 */
+}
 
-    /* ... (Adjust other styles as needed for mobile) */
+.section-ttl1 {
+    font-size: 24px; /* フォントサイズ調整 */
+    margin-left: 0; /* 左のマージン削除 */
+    margin-top: 20px; /* 上のマージン追加 */
+}
 
-    /* Example: Adjusting header navigation */
-    .header-nav-list {
-        margin-left: 0;
-    }
+/* btn */
+.btn {
+    margin-top: 20px; /* マージントップ調整 */
+    text-align: center;
+}
 
-    /* ... (Adjust other styles as needed for mobile) */
+.btn2 {
+    margin-top: 20px; /* マージントップ調整 */
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+/* icon */
+.icon-list {
+    display: block; /* ブロック要素に変更 */
+    text-align: center; /* テキスト中央揃え */
+}
+
+.icon-item {
+    margin: 10px auto; /* 中央揃え */
+}
+
+/* header */
+.header {
+    padding-top: 20px; /* パディングトップ調整 */
+}
+
+.header-nav-list {
+    display: block; /* ブロック要素に変更 */
+    text-align: center; /* テキスト中央揃え */
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+.header-nav-item + .header-nav-item {
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+/* kv */
+.kv-detail .section-ttl {
+    margin-left: 0; /* 左のマージン削除 */
+    margin-top: 10px; /* 上のマージン追加 */
+}
+
+/* animascape */
+.animascape-txt-main {
+    font-size: 20px; /* フォントサイズ調整 */
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.animascape-img-box {
+    height: 400px; /* 高さ調整 */
+    margin-top: 40px; /* 上のマージン追加 */
+}
+
+.animascape-detail-wrap {
+    display: block; /* ブロック要素に変更 */
+    margin-top: 40px; /* 上のマージン追加 */
+}
+
+.animascape-detail-content {
+    width: 100%; /* 幅調整 */
+}
+
+.animascape-detail-ttl {
+    font-size: 24px; /* フォントサイズ調整 */
+}
+
+.animascape-detail-txt {
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.animascape-detail-img-wrap {
+    display: block; /* ブロック要素に変更 */
+    width: 100%; /* 幅調整 */
+}
+
+/* kidsbook */
+.kidsbook {
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.kidsbook-wrap {
+    display: block; /* ブロック要素に変更 */
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.kidsbook-item + .kidsbook-item {
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.kidsbook-img-box-index {
+    height: 250px; /* 高さ調整 */
+    width: 100%; /* 幅調整 */
+}
+
+.kidsbook-ttl {
+    font-size: 20px; /* フォントサイズ調整 */
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+.kidsbook-txt {
+    font-size: 14px; /* フォントサイズ調整 */
+    margin-top: 10px; /* 上のマージン追加 */
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+.kidsbook-price {
+    font-size: 14px; /* フォントサイズ調整 */
+    margin-top: 10px; /* 上のマージン追加 */
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+/* author */
+.author-list {
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.author-item + .author-item {
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.author-img-box-index {
+    height: 300px; /* 高さ調整 */
+    width: 100%; /* 幅調整 */
+}
+
+.author-ttl {
+    font-size: 20px; /* フォントサイズ調整 */
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.author-txt {
+    margin-top: 20px; /* 上のマージン追加 */
+    font-size: 14px; /* フォントサイズ調整 */
+}
+
+/* contact */
+.contact-content {
+    display: block; /* ブロック要素に変更 */
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.contact-content-img-box {
+    max-width: 100%; /* 幅調整 */
+    height: 200px; /* 高さ調整 */
+}
+
+.contact-content-txt-logo-box {
+    width: 100%; /* 幅調整 */
+}
+
+.contact-intro {
+    font-size: 14px; /* フォントサイズ調整 */
+    margin-top: 8px; /* 上のマージン追加 */
+}
+
+/* footer */
+.footer {
+    padding-top:20px; /* パディングトップ調整 */
+}
+
+.footer-logo-box {
+    width: 100%; /* 幅調整 */
+    margin: 0 auto;
+}
+
+.footer-nav-list {
+    display: block; /* ブロック要素に変更 */
+    text-align: center; /* テキスト中央揃え */
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.footer-nav-item + .footer-nav-item {
+    margin-left: 0; /* 左のマージン削除 */
+}
+
+.footer .icon-list {
+    text-align: center; /* テキスト中央揃え */
+}
+
+.footer .icon {
+    margin-top: 20px; /* 上のマージン追加 */
+}
+
+.footer-copy {
+    font-size: 10px; /* フォントサイズ調整 */
+    margin-top: 20px; /* 上のマージン追加 */
 }
