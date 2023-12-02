@@ -1,4 +1,4 @@
-@charset "UTF-8";
+.@charset "UTF-8";
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -474,6 +474,11 @@ body {
         align-items: center;
         justify-content: center;
         height: 100vh; /* 画面全体の高さいっぱいに広げる */
+        background-position: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
 /* section */
