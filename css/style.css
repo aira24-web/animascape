@@ -461,10 +461,10 @@ body {
 body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.5;
-    background-color: rgb(223, 185, 135);
+    background-color: rgb(223, 185, 135) !important; /* 重要: 強制的に適用 */
     overflow-x: hidden; /* 横スクロールを無効化 */
     padding-left: 0;
-    padding-right: 0
+    padding-right: 0;
 }
 
 /* main */
@@ -567,7 +567,7 @@ main {
 .animascape-img-box {
     height: 400px; /* 高さ調整 */
     margin-top: 40px; /* 上のマージン追加 */
-    with: 100%;
+    width: 100%;
 }
 
 .animascape-detail-wrap {
