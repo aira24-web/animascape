@@ -550,7 +550,6 @@ body {
 .kv-copy, .kv-detail {
     background-position: 100%;
     position: absolute;
-    transform: translate(-50%,-50%);
 }
 
 .kv-detail .section-ttl::before {
@@ -566,6 +565,7 @@ body {
 .animascape-img-box {
     height: 400px; /* 高さ調整 */
     margin-top: 40px; /* 上のマージン追加 */
+    with: 100%;
 }
 
 .animascape-detail-wrap {
