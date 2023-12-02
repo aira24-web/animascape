@@ -471,7 +471,6 @@ body {
 .section-wrap {
     padding: 40px 0; /* パディング調整 */
     display: flex;
-    justify-content: center;
     align-items: center; /* コンテンツを垂直方向に中央揃え */
 }
 
