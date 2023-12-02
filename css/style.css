@@ -512,35 +512,41 @@ main {
     margin-top: 20px; /* マージントップ調整 */
     margin-left: 0; /* 左のマージン削除 */
 }
-
-/* icon */
-    .icon-list {
-        display: flex;
-        margin-left: 0;
-        justify-content: flex-end;
-    }
-
-    .icon-item + .icon-item {
-        margin-left: 20px; /* Adjust the spacing between items as needed */
-    }
-
-/* header */
-.header {
-    padding-top: 20px; /* パディングトップ調整 */
-    position: fixed;
-    width: 100%;
-    z-index: 1000; /* 適切な値を設定して必要に応じて調整 */
+    
+    /* icon */
+.icon {
+    margin-top: 20px;
+    text-align: center; /* 中央揃えに追加 */
 }
 
-   .header-nav-list {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-    }
+.icon-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0;
+}
 
-    .header-nav-item + .header-nav-item {
-        margin-left: 20px; /* Adjust the spacing between items as needed */
-    }
+.icon-item + .icon-item {
+    margin-left: 20px;
+}
+    
+/* header */
+.header {
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    text-align: center; /* 中央揃えに追加 */
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.header-nav-item + .header-nav-item {
+    margin-left: 20px;
+}
 
 /* kv */
 .kv-detail .section-ttl {
