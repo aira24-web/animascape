@@ -467,6 +467,10 @@ body {
     padding-right: 0
 }
 
+.main {
+    justify-content: center;
+}
+
 /* section */
 .section-wrap {
     padding: 40px 0; /* パディング調整 */
