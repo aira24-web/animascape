@@ -536,6 +536,7 @@ main {
         display: flex;
         flex-direction: column; /* カラム方向にレイアウト */
         align-items: center;
+        justify-content: center;
         height: 100vh; /* 画面全体の高さいっぱいに広げる */
     }
 
