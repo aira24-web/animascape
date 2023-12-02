@@ -455,6 +455,14 @@ body {
 }
 
 @charset "UTF-8";
+/* Media query for mobile devices */
+@charset "UTF-8";
+@media only screen and (max-width: 767px) {
+    .header-nav-list {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -496,29 +504,30 @@ body {
 }
 
 /* icon */
-.icon-list {
-    display: block; /* ブロック要素に変更 */
-    text-align: center; /* テキスト中央揃え */
-}
+    .icon-list {
+        display: flex;
+        margin-left: 0;
+        justify-content: flex-end;
+    }
 
-.icon-item {
-    margin: 10px auto; /* 中央揃え */
-}
+    .icon-item + .icon-item {
+        margin-left: 10px; /* Adjust the spacing between items as needed */
+    }
 
 /* header */
 .header {
     padding-top: 20px; /* パディングトップ調整 */
 }
 
-.header-nav-list {
-    display: block; /* ブロック要素に変更 */
-    text-align: center; /* テキスト中央揃え */
-    margin-left: 0; /* 左のマージン削除 */
-}
+   .header-nav-list {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
 
-.header-nav-item + .header-nav-item {
-    margin-left: 0; /* 左のマージン削除 */
-}
+    .header-nav-item + .header-nav-item {
+        margin-left: 20px; /* Adjust the spacing between items as needed */
+    }
 
 /* kv */
 .kv-detail .section-ttl {
@@ -670,4 +679,5 @@ body {
 .footer-copy {
     font-size: 10px; /* フォントサイズ調整 */
     margin-top: 20px; /* 上のマージン追加 */
+}
 }
