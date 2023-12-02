@@ -457,13 +457,6 @@ body {
 /* Media query for mobile devices */
 @charset "UTF-8";
 @media only screen and (max-width: 767px) {
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh; /* 画面全体の高さいっぱいに広げる */
-    }
-}
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -537,6 +530,14 @@ body {
 
     .header-nav-item + .header-nav-item {
         margin-left: 20px; /* Adjust the spacing between items as needed */
+    }
+    
+/* main */
+main {
+        display: flex;
+        flex-direction: column; /* カラム方向にレイアウト */
+        align-items: center;
+        height: 100vh; /* 画面全体の高さいっぱいに広げる */
     }
 
 /* kv */
