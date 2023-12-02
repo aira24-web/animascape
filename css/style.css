@@ -470,6 +470,9 @@ body {
 /* section */
 .section-wrap {
     padding: 40px 0; /* パディング調整 */
+    justify-content: center;
+    display: flex;
+    
 }
 
 .section-inner, .section-inner-s {
