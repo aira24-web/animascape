@@ -469,12 +469,13 @@ body {
 
 /* main */
 main {
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px; /* 任意の適切な幅に調整 */
+    max-width: 800px;
     margin: auto;
-    padding: 20px; /* 任意のパディングを追加 */
+    padding: 20px;
+    box-sizing: border-box;
     }
     
 /* section */
@@ -699,5 +700,28 @@ main {
 .footer-copy {
     font-size: 10px; /* フォントサイズ調整 */
     margin-top: 20px; /* 上のマージン追加 */
+}
+
+.section-wrap,
+.section-inner,
+.section-inner-s,
+.kv-copy,
+.kv-detail,
+.animascape-detail-wrap,
+.animascape-detail-content,
+.animascape-detail-img-wrap,
+.kidsbook,
+.kidsbook-wrap,
+.kidsbook-item,
+.author-list,
+.author-item,
+.contact-content,
+.contact-content-img-box,
+.contact-content-txt-logo-box,
+.footer,
+.footer-nav-list,
+.footer .icon-list,
+.footer .icon {
+    box-sizing: border-box;
 }
 }
