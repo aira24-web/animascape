@@ -458,276 +458,141 @@ body {
 @charset "UTF-8";
 @media only screen and (max-width: 767px) {
 
-body {
+  body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.5;
-    background-color: rgb(223, 185, 135) !important; /* 重要: 強制的に適用 */
-    overflow-x: hidden; /* 横スクロールを無効化 */
+    background-color: rgb(223, 185, 135);
+    overflow-x: hidden;
     padding-left: 0;
     padding-right: 0;
-}
+  }
 
-/* main */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px;
-    margin: auto;
+  main {
+    max-width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    }
-    
-/* section */
-.section-wrap {
-    padding: 40px 0; /* パディング調整 */
-    display: flex;
-    align-items: center; /* コンテンツを垂直方向に中央揃え */
-}
+  }
 
-.section-inner, .section-inner-s {
-    width: 100%; /* モバイル用に幅調整 */
-    margin: 0 auto;
-}
-
-.section-ttl {
-    font-size: 24px; /* フォントサイズ調整 */
-    margin-left: 0; /* 左のマージン削除 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.section-ttl1 {
-    font-size: 24px; /* フォントサイズ調整 */
-    margin-left: 0; /* 左のマージン削除 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-/* btn */
-.btn {
-    margin-top: 20px; /* マージントップ調整 */
-    text-align: center;
-}
-
-.btn2 {
-    margin-top: 20px; /* マージントップ調整 */
-    margin-left: 0; /* 左のマージン削除 */
-}
-    
-    /* icon */
-.icon {
-    margin-top: 20px;
-    text-align: center; /* 中央揃えに追加 */
-}
-
-.icon-list {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 0;
-}
-
-.icon-item + .icon-item {
-    margin-left: 20px;
-}
-    
-/* header */
-.header {
-    padding-top: 20px;
-    position: fixed;
+  .section-wrap,
+  .section-inner,
+  .section-inner-s,
+  .kv-copy,
+  .kv-detail,
+  .animascape-detail-wrap,
+  .animascape-detail-content,
+  .animascape-detail-img-wrap,
+  .kidsbook,
+  .kidsbook-wrap,
+  .kidsbook-item,
+  .author-list,
+  .author-item,
+  .contact-content,
+  .contact-content-img-box,
+  .contact-content-txt-logo-box,
+  .footer,
+  .footer-nav-list,
+  .footer .icon-list,
+  .footer .icon {
     width: 100%;
-    z-index: 1000;
-    text-align: center; /* 中央揃えに追加 */
-}
+    margin: 0 auto;
+  }
 
-.header-nav-list {
+  .section-ttl1 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .btn2 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .icon-item {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .header-nav-list {
     display: flex;
     justify-content: center;
     margin-left: 0;
-}
+  }
 
-.header-nav-item + .header-nav-item {
-    margin-left: 20px;
-}
-
-/* kv */
-.kv-detail .section-ttl {
-    margin-left: 0; /* 左のマージン削除 */
-    margin-top: 10px; /* 上のマージン追加 */
-    color: #fff
-}
-
-.kv-copy, .kv-detail {
+  .kv-detail .section-ttl {
+    margin-left: 0;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .kv-copy,
+  .kv-detail {
     background-position: 100%;
     position: absolute;
     transform: translate(-50%, -50%);
-}
+  }
 
-.kv-detail .section-ttl::before {
+  .kv-detail .section-ttl::before {
     color: #fff;
-}
+  }
 
-/* animascape */
-.animascape-txt-main {
-    font-size: 20px; /* フォントサイズ調整 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.animascape-img-box {
-    height: 400px; /* 高さ調整 */
-    margin-top: 40px; /* 上のマージン追加 */
+  .animascape-img-box {
+    height: 400px;
+    margin-top: 40px;
     width: 100%;
-}
+  }
 
-.animascape-detail-wrap {
-    display: block; /* ブロック要素に変更 */
-    margin-top: 40px; /* 上のマージン追加 */
-}
+  .animascape-detail-wrap {
+    display: block;
+    margin-top: 40px;
+  }
 
-.animascape-detail-content {
-    width: 100%; /* 幅調整 */
-}
+  .animascape-detail-content {
+    width: 100%;
+  }
 
-.animascape-detail-ttl {
-    font-size: 24px; /* フォントサイズ調整 */
-}
+  .kidsbook-wrap {
+    display: block;
+    margin-top: 20px;
+  }
 
-.animascape-detail-txt {
-    margin-top: 20px; /* 上のマージン追加 */
-}
+  .kidsbook-item + .kidsbook-item {
+    margin-top: 20px;
+  }
 
-.animascape-detail-img-wrap {
-    display: block; /* ブロック要素に変更 */
-    width: 100%; /* 幅調整 */
-}
+  .kidsbook-img-box-index {
+    height: 250px;
+    width: 100%;
+  }
 
-/* kidsbook */
-.kidsbook {
-    margin-top: 20px; /* 上のマージン追加 */
-}
+  .author-list {
+    margin-top: 20px;
+  }
 
-.kidsbook-wrap {
-    display: block; /* ブロック要素に変更 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
+  .author-item + .author-item {
+    margin-top: 20px;
+  }
 
-.kidsbook-item + .kidsbook-item {
-    margin-top: 20px; /* 上のマージン追加 */
-}
+  .contact-content {
+    display: block;
+    margin-top: 20px;
+  }
 
-.kidsbook-img-box-index {
-    height: 250px; /* 高さ調整 */
-    width: 100%; /* 幅調整 */
-}
+  .footer-nav-list {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
 
-.kidsbook-ttl {
-    font-size: 20px; /* フォントサイズ調整 */
-    margin-left: 0; /* 左のマージン削除 */
-}
+  .footer .icon {
+    margin-top: 20px;
+  }
 
-.kidsbook-txt {
-    font-size: 14px; /* フォントサイズ調整 */
-    margin-top: 10px; /* 上のマージン追加 */
-    margin-left: 0; /* 左のマージン削除 */
-}
-
-.kidsbook-price {
-    font-size: 14px; /* フォントサイズ調整 */
-    margin-top: 10px; /* 上のマージン追加 */
-    margin-left: 0; /* 左のマージン削除 */
-}
-
-/* author */
-.author-list {
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.author-item + .author-item {
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.author-img-box-index {
-    height: 100%; /* 高さ調整 */
-    width: 100%; /* 幅調整 */
-}
-
-.author-ttl {
-    font-size: 20px; /* フォントサイズ調整 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.author-txt {
-    margin-top: 20px; /* 上のマージン追加 */
-    font-size: 14px; /* フォントサイズ調整 */
-}
-
-/* contact */
-.contact-content {
-    display: block; /* ブロック要素に変更 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.contact-content-img-box {
-    max-width: 100%; /* 幅調整 */
-    height: 100%; /* 高さ調整 */
-}
-
-.contact-content-txt-logo-box {
-    width: 100px; /* 幅調整 */
-    height: 100px;
-}
-
-.contact-intro {
-    font-size: 20px; /* フォントサイズ調整 */
-    margin-top: 8px; /* 上のマージン追加 */
-}
-
-/* footer */
-.footer {
-    padding-top:20px; /* パディングトップ調整 */
-}
-
-.footer-nav-list {
-    display: block; /* ブロック要素に変更 */
-    text-align: center; /* テキスト中央揃え */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.footer-nav-item + .footer-nav-item {
-    margin-left: 0; /* 左のマージン削除 */
-}
-
-.footer .icon-list {
-    text-align: center; /* テキスト中央揃え */
-}
-
-.footer .icon {
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.footer-copy {
-    font-size: 10px; /* フォントサイズ調整 */
-    margin-top: 20px; /* 上のマージン追加 */
-}
-
-.section-wrap,
-.section-inner,
-.section-inner-s,
-.kv-copy,
-.kv-detail,
-.animascape-detail-wrap,
-.animascape-detail-content,
-.animascape-detail-img-wrap,
-.kidsbook,
-.kidsbook-wrap,
-.kidsbook-item,
-.author-list,
-.author-item,
-.contact-content,
-.contact-content-img-box,
-.contact-content-txt-logo-box,
-.footer,
-.footer-nav-list,
-.footer .icon-list,
-.footer .icon {
-    box-sizing: border-box;
-}
+  .footer-copy {
+    font-size: 10px;
+    margin-top: 20px;
+  }
 }
