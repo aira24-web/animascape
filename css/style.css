@@ -497,6 +497,13 @@ body {
     margin: 0 auto;
   }
 
+  .section-ttl {
+    font-size: 24px;
+    margin-left: 0;
+    margin-top: 20px;
+    position: relative; /* positionをrelativeに変更 */
+  }
+
   .section-ttl1 {
     margin-left: 0;
     margin-top: 20px;
@@ -517,10 +524,15 @@ body {
   }
 
   .header-nav-list {
+    position: absolute; /* positionをabsoluteに変更 */
+    top: 0; /* 上端に配置 */
+    left: 50%; /* 中央揃えのため左端を50%に */
+    transform: translateX(-50%); /* 中央揃え */
     display: flex;
     justify-content: center;
     margin-left: 0;
   }
+
 
   .kv-detail .section-ttl {
     margin-left: 0;
