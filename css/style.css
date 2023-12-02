@@ -1,4 +1,4 @@
-@charset "UTF-8";
+=#@charset "UTF-8";
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -473,7 +473,7 @@ body {
 }
 
 .section-inner, .section-inner-s {
-    width: 90%; /* モバイル用に幅調整 */
+    width: 100%; /* モバイル用に幅調整 */
     margin: 0 auto;
 }
 
