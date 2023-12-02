@@ -536,6 +536,17 @@ body {
 .kv-detail .section-ttl {
     margin-left: 0; /* 左のマージン削除 */
     margin-top: 10px; /* 上のマージン追加 */
+    color: #fff
+}
+
+.kv-copy, .kv-detail {
+    background-position: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.kv-detail .section-ttl::before {
+    color: #fff;
 }
 
 /* animascape */
