@@ -188,11 +188,11 @@ body {
     width: 100%;
     margin-top: 30px;
     text-align: center;
+    
 }
 
 .kidsbook.__detail {
     background-color: #fff;
-    width: 100%;
 }
 
 .kidsbook-wrap {
@@ -488,6 +488,7 @@ body {
   .kidsbook,
   .kidsbook-wrap,
   .author-list,
+  .author-item,
   .contact-content,
   .contact-content-txt-logo-box,
   .footer,
@@ -496,12 +497,11 @@ body {
     margin: 0 auto;
   }
 
-  .section-ttl1 {
+ .section-ttl {
     margin-left: 60px;
     margin-top: 60px;
 }
-
-  .section-ttl {
+  .section-ttl1 {
     margin-left: 60px;
     margin-top: 60px;
 }
@@ -526,7 +526,7 @@ body {
     margin-left: 0;
   }
 
-  .kv-detail {
+  .kv-detail .section-ttl {
     margin-left: 0;
     margin-top: 10px;
     color: #fff;
@@ -561,7 +561,7 @@ body {
   }
 
   .animascape-detail-content {
-    width: 85%;
+    width: 100%;
   }
 
   .kidsbook-wrap {
@@ -570,7 +570,7 @@ body {
   }
 
 .kidsbook-item {
-    width: 85%;
+    width: 100%;
 }
 
   .kidsbook-item + .kidsbook-item {
@@ -579,7 +579,7 @@ body {
 
   .kidsbook-img-box-index {
     height: 250px;
-    width: 300px;
+    width: 100%;
   }
 
   .author-list {
@@ -613,7 +613,7 @@ body {
   }
 }
 
-/* Media query for tablet devices */
+
 @charset "UTF-8";
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body {
@@ -704,17 +704,17 @@ body {
     margin-top: 40px;
   }
   .kidsbook-item {
-    width: 85%;
+    width: 100%;
   }
   .kidsbook-img-box-index {
     height: 400px;
-    width: 450px;
+    width: 100%;
   }
   .author-list {
     margin-top: 40px;
   }
   .author-item {
-    width: 85%;
+    width: 100%;
   }
   .contact-content {
     display: flex;
