@@ -498,6 +498,11 @@ body {
     margin-top: 60px;
 }
 
+  .section-ttl {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
   .btn2 {
     margin-top: 20px;
     text-align: center;
@@ -544,7 +549,7 @@ body {
 .animascape-detail-img-box {
     width: 100%;
     height: 400px;
-    margin-left: auto;
+    margin-right: auto;
 }
 
   .animascape-detail-wrap {
@@ -553,7 +558,7 @@ body {
   }
 
   .animascape-detail-content {
-    width: 100%;
+    width: 70%;
   }
 
   .kidsbook-wrap {
@@ -562,7 +567,7 @@ body {
   }
 
 .kidsbook-item {
-    width: 100%;
+    width: 70%;
 }
 
   .kidsbook-item + .kidsbook-item {
@@ -571,7 +576,7 @@ body {
 
   .kidsbook-img-box-index {
     height: 250px;
-    width: 100%;
+    width: 300px;
   }
 
   .author-list {
@@ -696,17 +701,17 @@ body {
     margin-top: 40px;
   }
   .kidsbook-item {
-    width: 100%;
+    width: 70%;
   }
   .kidsbook-img-box-index {
     height: 400px;
-    width: 100%;
+    width: 450px;
   }
   .author-list {
     margin-top: 40px;
   }
   .author-item {
-    width: 100%;
+    width: 70%;
   }
   .contact-content {
     display: flex;
