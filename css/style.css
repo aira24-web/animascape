@@ -488,16 +488,14 @@ body {
   .contact-content,
   .contact-content-txt-logo-box,
   .footer,
-  .footer-nav-list,
-  .footer .icon-list,
-  .footer .icon {
+  .footer-nav-list,{
     width: 100%;
     margin: 0 auto;
   }
 
   .section-ttl1 {
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-left: 60px;
+    margin-top: 60px;
 }
 
   .btn2 {
@@ -564,9 +562,7 @@ body {
   }
 
 .kidsbook-item {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    width: 100%;
 }
 
   .kidsbook-item + .kidsbook-item {
@@ -593,7 +589,7 @@ body {
 
 .contact-content-img-box {
     width: 100%;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
   .footer-nav-list {
@@ -642,19 +638,14 @@ body {
   .contact-content-img-box,
   .contact-content-txt-logo-box,
   .footer,
-  .footer-nav-list,
-  .footer .icon-list,
-  .footer .icon {
+  .footer-nav-list,{
     width: 100%;
     margin: 0 auto;
   }
-  .section-ttl1 {
-    margin-left: 0;
-    margin-top: 40px;
-  }
+
   .btn2 {
     margin-top: 40px;
-    margin-left: 0;
+    text-align: center;
   }
   .icon-item {
     width: 80px;
@@ -705,7 +696,7 @@ body {
     margin-top: 40px;
   }
   .kidsbook-item {
-    width: 45%;
+    width: 100%;
   }
   .kidsbook-img-box-index {
     height: 400px;
