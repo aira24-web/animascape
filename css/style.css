@@ -481,14 +481,12 @@ body {
   .kv-detail,
   .animascape-detail-wrap,
   .animascape-detail-content,
-  .animascape-detail-img-wrap,
   .kidsbook,
   .kidsbook-wrap,
   .kidsbook-item,
   .author-list,
   .author-item,
   .contact-content,
-  .contact-content-img-box,
   .contact-content-txt-logo-box,
   .footer,
   .footer-nav-list,
@@ -505,7 +503,7 @@ body {
 
   .btn2 {
     margin-top: 20px;
-    margin-left: 0;
+    text-align: center;
   }
 
   .icon-item {
@@ -546,6 +544,12 @@ body {
     width: 100%;
   }
 
+.animascape-detail-img-box {
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+}
+
   .animascape-detail-wrap {
     display: block;
     margin-top: 40px;
@@ -566,7 +570,7 @@ body {
 
   .kidsbook-img-box-index {
     height: 250px;
-    width: 100%;
+    width: 300px;
   }
 
   .author-list {
@@ -582,15 +586,17 @@ body {
     margin-top: 20px;
   }
 
+.contact-content-img-box {
+    width: 100%;
+    margin-left: 30px;
+}
+
   .footer-nav-list {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
   }
 
-  .footer .icon {
-    margin-top: 20px;
-  }
 
   .footer-copy {
     font-size: 10px;
@@ -722,9 +728,7 @@ body {
     justify-content: space-between;
     margin-top: 40px;
   }
-  .footer .icon {
-    margin-top: 40px;
-  }
+
   .footer-copy {
     font-size: 12px;
     margin-top: 40px;
