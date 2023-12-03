@@ -483,7 +483,6 @@ body {
   .animascape-detail-content,
   .kidsbook,
   .kidsbook-wrap,
-  .kidsbook-item,
   .author-list,
   .author-item,
   .contact-content,
@@ -564,13 +563,19 @@ body {
     margin-top: 20px;
   }
 
+.kidsbook-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
   .kidsbook-item + .kidsbook-item {
     margin-top: 20px;
   }
 
   .kidsbook-img-box-index {
     height: 250px;
-    width: 300px;
+    width: 100%;
   }
 
   .author-list {
@@ -710,7 +715,7 @@ body {
     margin-top: 40px;
   }
   .author-item {
-    width: 45%;
+    width: 100%;
   }
   .contact-content {
     display: flex;
@@ -719,14 +724,15 @@ body {
   }
   .contact-content-img-box {
     width: 45%;
+    margin-left: 30px;
   }
   .contact-content-txt-logo-box {
     width: 45%;
   }
   .footer-nav-list {
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    justify-content: center;
+    margin-left: 0;
   }
 
   .footer-copy {
