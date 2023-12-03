@@ -561,7 +561,7 @@ body {
   }
 
   .animascape-detail-content {
-    width: 70%;
+    width: 85%;
   }
 
   .kidsbook-wrap {
@@ -570,7 +570,7 @@ body {
   }
 
 .kidsbook-item {
-    width: 70%;
+    width: 85%;
 }
 
   .kidsbook-item + .kidsbook-item {
@@ -704,7 +704,7 @@ body {
     margin-top: 40px;
   }
   .kidsbook-item {
-    width: 70%;
+    width: 85%;
   }
   .kidsbook-img-box-index {
     height: 400px;
@@ -714,7 +714,7 @@ body {
     margin-top: 40px;
   }
   .author-item {
-    width: 70%;
+    width: 85%;
   }
   .contact-content {
     display: flex;
