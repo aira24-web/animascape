@@ -552,7 +552,7 @@ body {
 .animascape-detail-img-box {
     width: 100%;
     height: 400px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
   .animascape-detail-wrap {
@@ -569,17 +569,13 @@ body {
     margin-top: 20px;
   }
 
-.kidsbook-item {
-    width: 100%;
-}
-
   .kidsbook-item + .kidsbook-item {
     margin-top: 20px;
   }
 
   .kidsbook-img-box-index {
     height: 250px;
-    width: 100%;
+    width: 300px;
   }
 
   .author-list {
