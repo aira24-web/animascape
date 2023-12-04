@@ -482,14 +482,8 @@ body {
   .section-inner-s,
   .kv-copy,
   .kv-detail,
-  .animascape-detail-wrap,
-  .animascape-detail-content,
-  .kidsbook-wrap,
-  .author-list,
   .author-item,
-  .contact-content,
-  .contact-content-txt-logo-box,
-  .footer-nav-list,{
+  .contact-content-txt-logo-box,{
     width: 100%;
     margin: 0 auto;
   }
@@ -626,15 +620,6 @@ body {
   .section-inner-s,
   .kv-copy,
   .kv-detail,
-  .animascape-detail-wrap,
-  .animascape-detail-content,
-  .animascape-detail-img-wrap,
-  .kidsbook-wrap,
-  .kidsbook-item,
-  .author-list,
-  .author-item,
-  .contact-content,
-  .contact-content-txt-logo-box,
   .footer-nav-list,{
     width: 100%;
     margin: 0 auto;
