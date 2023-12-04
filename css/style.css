@@ -458,7 +458,153 @@ body {
     margin-top: 60px;
     padding-bottom: 8px;
 }
+/* Media query for mobile devices */
+@charset "UTF-8";
+@media only screen and (max-width: 767px) {
 
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
+    background-color: rgb(223, 185, 135);
+    overflow-x: hidden;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .section-wrap,
+  .section-inner,
+  .section-inner-s,
+  .kv-copy,
+  .kv-detail,
+  .animascape-detail-wrap,
+  .animascape-detail-content,
+  .kidsbook-wrap,
+  .author-list,
+  .author-item,
+  .contact-content,
+  .contact-content-txt-logo-box,
+  .footer-nav-list,{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+ .section-ttl {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+  .section-ttl1 {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+  .btn2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .icon-item {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .header-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .kv-detail .section-ttl {
+    margin-left: 0;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .kv-copy,
+  .kv-detail {
+    background-position: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  .kv-detail .section-ttl::before {
+    color: #fff;
+  }
+
+  .animascape-img-box {
+    height: 400px;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+.animascape-detail-img-box {
+    width: 100%;
+    height: 400px;
+    margin-left: 0px;
+}
+
+  .animascape-detail-wrap {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .animascape-detail-content {
+    width: 100%;
+  }
+
+  .kidsbook-wrap {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .kidsbook-item + .kidsbook-item {
+    margin-top: 20px;
+  }
+
+  .kidsbook-img-box-index {
+    height: 250px;
+    width: 300px;
+  }
+
+  .author-list {
+    margin-top: 20px;
+  }
+
+  .author-item + .author-item {
+    margin-top: 20px;
+  }
+
+  .contact-content {
+    display: block;
+    margin-top: 20px;
+  }
+
+.contact-content-img-box {
+    width: 100%;
+    margin-left: 70px;
+}
+
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+
+  .footer-copy {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+}
 
 @charset "UTF-8";
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -483,7 +629,6 @@ body {
   .animascape-detail-wrap,
   .animascape-detail-content,
   .animascape-detail-img-wrap,
-  .kidsbook,
   .kidsbook-wrap,
   .kidsbook-item,
   .author-list,
@@ -491,7 +636,6 @@ body {
   .contact-content,
   .contact-content-img-box,
   .contact-content-txt-logo-box,
-  .footer,
   .footer-nav-list,{
     width: 100%;
     margin: 0 auto;
@@ -550,7 +694,7 @@ body {
     margin-top: 40px;
   }
   .kidsbook-item {
-    width: 100%;
+    width: 80%;
   }
   .kidsbook-img-box-index {
     height: 400px;
@@ -560,7 +704,7 @@ body {
     margin-top: 40px;
   }
   .author-item {
-    width: 100%;
+    width: 80%;
   }
   .contact-content {
     display: flex;
