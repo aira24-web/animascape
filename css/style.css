@@ -1,4 +1,4 @@
-#.@charset "UTF-8";
+@charset "UTF-8";
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -478,4 +478,5 @@ body {
 .kidsbook-content,
 .author-content {
     margin-right: 20px;
+}
 }
