@@ -463,6 +463,21 @@ body {
 @charset "UTF-8";
 @media only screen and (max-width: 767px) {
 
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.5;
+    background-color: rgb(223, 185, 135);
+    overflow-x: hidden;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
 .animascape-img-box {
     width: 1200px;
 }
