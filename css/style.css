@@ -1,4 +1,4 @@
-@charset "UTF-8";
+#.@charset "UTF-8";
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -457,4 +457,25 @@ body {
     text-align: center;
     margin-top: 60px;
     padding-bottom: 8px;
+}
+
+/* Media query for mobile devices */
+@charset "UTF-8";
+@media only screen and (max-width: 767px) {
+
+.animascape-img-box {
+    width: 1200px;
+}
+
+.animascape-detail-wrap {
+    width: 80%;
+}
+
+.kidsbook-img-box,
+.author-img-box {
+    margin-left: 20px;
+}
+.kidsbook-content,
+.author-content {
+    margin-right: 20px;
 }
