@@ -496,6 +496,9 @@ body {
 .animascape-detail-wrap {
     width: 80%;
 }
+.animascape-detail-img-box {
+    margin-left: 20px;
+    }
 
 .kidsbook-img-box,
 .author-img-box {
