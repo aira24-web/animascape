@@ -10,6 +10,7 @@ body {
 /* section */
 .section-wrap {
     padding: 80px 0;
+    text-align: center;
 }
 
 .section-inner {
@@ -468,8 +469,8 @@ body {
     line-height: 1.5;
     background-color: rgb(223, 185, 135);
     overflow-x: hidden;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   main {
