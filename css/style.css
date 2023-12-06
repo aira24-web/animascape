@@ -494,6 +494,11 @@ body {
 .animascape-detail-wrap {
     width: 80%;
 }
+
+.animascape-detail-wrap {
+    display: flex;
+    align-item: center;
+}
 .animascape-detail-img-box {
     margin-left: 20px;
     }
