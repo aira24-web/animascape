@@ -10,8 +10,6 @@ body {
 /* section */
 .section-wrap {
     padding: 80px 0;
-    display: flex;
-    align-items: center; 
 }
 
 .section-inner {
@@ -124,12 +122,6 @@ body {
 
 
 /* animascape */
-
-.animascape {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-}
 .animascape-txt-main {
     font-size: 32px;
     font-weight: bold;
@@ -485,6 +477,17 @@ body {
     padding: 20px;
     box-sizing: border-box;
   }
+
+.section-wrap {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    } 
+
+.animascape {
+    display: flex;
+    flex-direction: column;
+}
 
 .animascape-img-box {
     width: 1200px;
