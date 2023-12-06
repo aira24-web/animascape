@@ -128,6 +128,7 @@ body {
 .animascape {
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 .animascape-txt-main {
     font-size: 32px;
