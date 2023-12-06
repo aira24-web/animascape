@@ -10,7 +10,8 @@ body {
 /* section */
 .section-wrap {
     padding: 80px 0;
-    text-align: center;
+    display: flex;
+    align-items: center; 
 }
 
 .section-inner {
