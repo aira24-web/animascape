@@ -470,7 +470,6 @@ body {
     line-height: 1.5;
     background-color: rgb(223, 185, 135);
     overflow-x: hidden;
-    width: 100%;
   }
 
   main {
@@ -481,6 +480,7 @@ body {
 
 .section-wrap {
     padding: 80px 0;
+    width: 100%;
     } 
 
 .animascape {
@@ -490,7 +490,7 @@ body {
 }
 
 .animascape-img-box {
-    width: 1200px;
+    width: 100%;
 }
 
 .animascape-detail-wrap {
