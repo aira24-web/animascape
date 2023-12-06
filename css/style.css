@@ -469,6 +469,7 @@ body {
     line-height: 1.5;
     background-color: rgb(223, 185, 135);
     overflow-x: hidden;
+    width: 100%;
   }
 
   main {
@@ -489,10 +490,6 @@ body {
 
 .animascape-img-box {
     width: 1200px;
-}
-
-.animascape-detail-wrap {
-    width: 80%;
 }
 
 .animascape-detail-wrap {
